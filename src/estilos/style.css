@@ -12,13 +12,20 @@ header {
 	width: 850px;
 	margin: 0 auto;
 	text-align:start;
-	height: 80px;
+	height: 100px;
 	
 }
 
+
 .logo{
 	width: 130px;
-	
+	height: 96px;
+
+}
+
+main{
+	width: 100%;
+	height: auto;
 }
 
 nav {
@@ -50,6 +57,7 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	height: 470px;
 	
 }
 
@@ -74,7 +82,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 32px;
 }
 
 .produtos h2 {
@@ -96,6 +104,7 @@ footer {
 	text-align: center;
 	background-color: #555555;
 	padding: 40px 0;
+	position: fixed, bottom;
 }
 
 .copyright {
@@ -113,6 +122,10 @@ form label, form legend {
 	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
+}
+
+.formulario{
+	padding: 10px;
 }
 
 .input-padrao {
