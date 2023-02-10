@@ -3,20 +3,29 @@ body {
 }
 
 header {
-	background: #BBBBBB;
+	background: #e7e2f7;
 	padding: 20px 0;
 }
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 850px;
 	margin: 0 auto;
+	text-align:start;
+	height: 80px;
+	
+}
+
+.logo{
+	width: 130px;
+	
 }
 
 nav {
 	position: absolute;
-	top: 110px;
+	top: 40px;
 	right: 0;
+	
 }
 
 nav li {
@@ -28,12 +37,12 @@ nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 20px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color:  	#a8c9db;
 	text-decoration: underline;
 }
 
@@ -41,6 +50,7 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	
 }
 
 .produtos li {
